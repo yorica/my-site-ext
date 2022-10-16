@@ -93,3 +93,28 @@ p {
   padding: 20px 15px;
   text-decoration: none;
 }
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 46px;
+  }
+
+  h2 {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+
+  p {
+    text-align: center;
+  }
+
+  .main-link {
+    display: block;
+    text-align: center;
+    margin: 0 25px;
+  }
+}
